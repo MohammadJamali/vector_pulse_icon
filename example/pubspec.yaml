@@ -1,0 +1,22 @@
+name: vector_pulse_icon_example
+description: Shows every vector_pulse_icon animation on a sample icon.
+publish_to: none
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  vector_pulse_icon:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.svg

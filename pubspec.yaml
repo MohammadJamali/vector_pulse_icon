@@ -1,0 +1,17 @@
+name: vector_pulse_icon
+description: Draws an SVG icon and animates its parts with pulse, glow and draw-and-fill effects.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_drawing: ^1.0.1
+  xml: ^7.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

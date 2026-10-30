@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Part 0: the top and bottom petals, merged because they share a group. -->
+  <g id="vertical" fill="#6C5CE7">
+    <path d="M60 6H60A14 14 0 0 1 74 20V34A14 14 0 0 1 60 48H60A14 14 0 0 1 46 34V20A14 14 0 0 1 60 6Z"/>
+    <path d="M60 72H60A14 14 0 0 1 74 86V100A14 14 0 0 1 60 114H60A14 14 0 0 1 46 100V86A14 14 0 0 1 60 72Z"/>
+  </g>
+  <!-- Part 1: the left and right petals. -->
+  <g id="horizontal" fill="#00B894">
+    <path d="M20 46H34A14 14 0 0 1 48 60V60A14 14 0 0 1 34 74H20A14 14 0 0 1 6 60V60A14 14 0 0 1 20 46Z"/>
+    <path d="M86 46H100A14 14 0 0 1 114 60V60A14 14 0 0 1 100 74H86A14 14 0 0 1 72 60V60A14 14 0 0 1 86 46Z"/>
+  </g>
+  <!-- Part 2: the centre dot, a top-level path. -->
+  <path id="centre" fill="#FDCB6E" d="M50 60a10 10 0 1 0 20 0a10 10 0 1 0 -20 0Z"/>
+</svg>
